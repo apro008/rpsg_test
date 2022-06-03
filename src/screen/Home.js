@@ -21,6 +21,7 @@ const Home = () => {
       const temp = data[keys];
       return (
         <View
+          key={keys}
           style={{
             flexDirection: 'row',
             padding: 10,
